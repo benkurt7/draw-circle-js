@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draw a Circle</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Enter a radius and get the volume of a circle</h1>
+        <hr>
+        <form>
+            <label for="radius">Enter Radius:</label>
+            <input type="number" name="radius" id="userInput" class="form-control container" style="width:  100px;"><br>
+            <button type="button" onclick="displayInput()" class="btn btn-warning">Submit</button><br><br>
+            The Volume is: <strong><span id="span"></span></strong>
+        </form><br>
+        <div id="canvasDiv">
+            <canvas id="myCanvas" width="400" height="400"></canvas><br>
+            <button class="clear btn btn-primary" type="button" onclick="clearCanvas()" id="clear">Clear</button>
+        </div>
+    </div>
+</body>
+
+</html>

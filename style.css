@@ -1,0 +1,20 @@
+
+span {
+    background-color: bisque;
+}
+
+canvas {
+    background-color: rgb(156, 201, 231);
+    border: 1px solid black;
+}
+.clear {
+    background-color: rgb(51, 198, 235);
+    color: black;
+    width: 400px;
+}
+#canvasDiv {
+    display: inline-block;
+}
+#container {
+    text-align: center;
+};
